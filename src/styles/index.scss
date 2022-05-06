@@ -1,0 +1,25 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: 'Spartan', sans-serif;
+  color: rgb(188, 84, 53);
+  padding: .5em;
+  background-color: rgb(240, 197, 182);
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+/* 
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+*/

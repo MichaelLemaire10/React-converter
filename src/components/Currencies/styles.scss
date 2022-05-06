@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(188, 84, 53);
+  text-align: left;
+  font-weight: 500;
+  max-height: 300px;
+  overflow: auto;
+  li {
+    display: inline;
+    padding: .8em;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    transition-duration: 1s;
+  }
+
+  li:hover {
+    transition-duration: 0.2s, 2s;
+    background-color: rgb(240, 197, 182);
+  }
+  
+  li:first-child {
+    display: inline;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+  }
+}
+
+input {
+  border: none;
+  padding: 1em;
+  font-family: 'Spartan', sans-serif;
+  color: rgb(188, 84, 53);
+  font-weight: 500;
+}
